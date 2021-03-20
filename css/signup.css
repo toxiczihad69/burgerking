@@ -1,0 +1,103 @@
+body{background: url(../img/hamburger-4103070_1920.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+
+.logo-section{
+     width: 700px;
+    margin: 5% auto;
+    display: block;
+}
+
+.logo{
+    width: 110px;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+.h1{
+    margin: 0px auto;
+    font-size: 50px;
+     text-align: center;
+     background: #CF0000;
+     background: -webkit-linear-gradient(to right, #CF0000 36%, #CFC100 65%);
+     background: -moz-linear-gradient(to right, #CF0000 36%, #CFC100 65%);
+     background: linear-gradient(to right, #CF0000 36%, #CFC100 65%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    font-family: 'Bangers', cursive;
+   
+    -webkit-text-stroke: 0.1px black; 
+   }
+
+
+   .h2{
+    margin: 0px auto;
+    font-size: 29px;
+    
+    text-align: center;
+    color: rgb(247, 1, 1);
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 2px 10px black;
+    -webkit-text-stroke: 0.2pt rgb(0, 0, 0);
+    letter-spacing: 1px;
+   }
+
+
+   .table{
+    margin: 0px auto;  
+    display: block;
+  
+   }
+   .form{
+    margin: 5px auto;
+    height: 17px;
+    text-align: center;
+    padding: 2px 20px;
+    
+    border-radius: 7px;
+    width: 150px;
+    display: block;
+    font-family: 'Balsamiq Sans', cursive;
+   }
+   
+   .next{
+    margin: 60px;
+}
+
+.forget{
+
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+.full{
+    margin-top: -25px;
+}
+
+.button{
+    margin: 0px auto;
+    display: block;
+    background: #ffc80033;
+    color: white;
+    border: none;
+    border-radius: 17px;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    -webkit-transition: 0.2s ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(255, 216, 43);
+}
